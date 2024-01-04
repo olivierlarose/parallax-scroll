@@ -1,15 +1,12 @@
 'use client';
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import styles from '../../app/page.module.scss';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Picture1 from '../../../public/medias/1.jpg';
-import Picture2 from '../../../public/medias/2.jpg';
-import Picture3 from '../../../public/medias/3.jpg';
+import Picture1 from '../../../public/medias/4.jpg';
+import Picture2 from '../../../public/medias/5.jpg';
+import Picture3 from '../../../public/medias/6.jpg';
 import Image from "next/image";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-gsap.registerPlugin(ScrollTrigger) 
 const word = "with framer-motion";
 
 export default function Index() {

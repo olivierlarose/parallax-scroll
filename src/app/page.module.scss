@@ -1,0 +1,57 @@
+.container{
+    margin-top: 10vh;
+    min-height: 100vh;
+    .body{
+        margin-left: 10vw;
+        h1{
+            margin: 0px;
+            margin-top: 10px;
+            font-size: 5vw;
+            line-height: 5vw;
+            text-transform: uppercase;
+        }
+        p{
+            color: white;
+            margin: 0px;
+            margin-top: 10px;
+            font-size: 3vw;
+            text-transform: uppercase;
+            span{
+                position: relative;
+            }
+        }
+    }
+    .images{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        margin-top: 5vh;
+        .imageContainer{
+            position: absolute;
+            img{
+                object-fit: cover;
+            }
+            &:nth-of-type(1){
+                height: 60vh;
+                width: 50vh;
+                z-index: 1;
+            }
+            &:nth-of-type(2){
+                left: 55vw;
+                top: 15vh;
+                height: 40vh;
+                width: 30vh;
+                z-index: 2;
+            }
+            &:nth-of-type(3){
+                left: 27.5vw;
+                top: 40vh;
+                height: 25vh;
+                width: 20vh;
+                z-index: 3;
+            }
+        }
+    }
+    
+}
